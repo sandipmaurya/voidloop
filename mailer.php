@@ -16,7 +16,7 @@ if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL
     
 // Set the recipient email address
     
-    $recipient = "admin@tripurari.in";
+    $recipient = "voidlooprobotech@gmail.com";
     
 // Set the subject 
     
