@@ -129,11 +129,18 @@ li a.active{
 .carousel-control{
 	width: 5%;
 }
-.carousel-inner{
-	background: -webkit-linear-gradient(left, #000 , blue); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(left, #000, blue); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(left, #000, blue); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to left, #000 , blue); /* Standard syntax */
+.carousel-inner .item::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55)); /* Standard syntax */
 }
 .item{
 	position: relative;
@@ -485,20 +492,21 @@ li a.active{
 
 /*gmap*/
 #map{
-	height: 830px;
+	height: 500px;
+	margin-bottom: 70px;
 }
 .map{
 	position: relative;
 	overflow: hidden;
 }
 .contact{
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
-	height: 830px;
+	/* height: 830px; */
 	margin-top: 0px;
-	left: 0;
-	margin-top: -830px;
-	background: rgba(0, 0, 0, 0.51);
+	/* left: 0; */
+	/* margin-top: -830px; */
+	background: #3b9cc8;
 }
 .contact-caption{
 	margin-top: 120px;
@@ -654,12 +662,9 @@ responsive area
   		font-size: 18px !important;
   	}
   	#map{
-		height: 1050px;
+		height: 500px;
 	}
-	.contact{
-		margin-top:-1050px;
-		height: 1050px;
-	}
+
 	.contact-caption {
 	 margin-top: 110px;
 	}
@@ -688,12 +693,9 @@ responsive area
 	  font-size: 20px;
 	}
 	#map{
-		height: 1120px;
+		height: 500px;
 	}
-	.contact{
-		height: 1120px;
-		margin-top: -1120px;
-	}
+
 	h2 {
 	  font-size: 70px !important;
 	}
@@ -771,12 +773,9 @@ responsive area
 		margin-top: 38%;
 	}
 	#map{
-		height: 950px;
+		height: 500px;
 	}
-	.contact{
-		height: 950px;
-		margin-top: -950px;
-	}
+
 	.contact-heading h2 {
 	  font-size: 50px;
 	  text-align: left;
