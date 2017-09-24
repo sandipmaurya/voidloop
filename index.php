@@ -5,11 +5,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Void Loop RoboTech &amp; Automation</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="/"><img src="img/logo.png" alt="" class="img-responsive logo"></a>
+					<a href="/"><img src="/img/logo.png" alt="" class="img-responsive logo"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -70,7 +70,7 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="img/slide-one.jpg" alt="">
+							<img src="/img/slide-one.jpg" alt="">
 							<div class="carousel-caption">
 								<h1>Training</h1>
 								<p>We accelerate science vision to reality</p>
@@ -78,7 +78,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="img/slide-two.jpg" alt="">
+							<img src="/img/slide-two.jpg" alt="">
 							<div class="carousel-caption">
 								<h1>Projects</h1>
 								<p>From Idea To Innovation.</p>
@@ -87,7 +87,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="img/slide-three.jpg" alt="">
+							<img src="/img/slide-three.jpg" alt="">
 							<div class="carousel-caption">
 								<h1>Autamation</h1>
 								<p>Here is everyting possible n easy</p>
@@ -95,7 +95,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="img/slide-four.jpg" alt="">
+							<img src="/img/slide-four.jpg" alt="">
 							<div class="carousel-caption">
 								<h1>Jobs</h1>
 								<p>We enhance opportunity of jobs</p>
@@ -133,7 +133,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail clearfix">
 						<div class="about-img">
-							<img src="img/about1.jpg" alt="">
+							<img src="/img/about1.jpg" alt="">
 						</div>
 
 						<div class="about-details">
@@ -152,7 +152,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail">
 						<div class="about-img">
-							<img class="img-responsive" src="img/about2.jpg" alt="">
+							<img class="img-responsive" src="/img/about2.jpg" alt="">
 						</div>
 
 						<div class="about-details">
@@ -170,7 +170,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail">
 						<div class="about-img">
-							<img class="img-responsive" src="img/about3.jpg" alt="">
+							<img class="img-responsive" src="/img/about3.jpg" alt="">
 						</div>
 
 						<div class="about-details">
@@ -202,7 +202,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="img-responsive" src="img/service1.png" alt="">
+								<img class="img-responsive" src="/img/service1.png" alt="">
 							</div>
 						</div>
 						<h3>Training</h3>
@@ -213,7 +213,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="img-responsive" src="img/service2.png" alt="">
+								<img class="img-responsive" src="/img/service2.png" alt="">
 							</div>
 						</div>
 						<h3>Projects</h3>
@@ -224,7 +224,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="img-responsive" src="img/service3.png" alt="">
+								<img class="img-responsive" src="/img/service3.png" alt="">
 							</div>
 						</div>
 						<h3>Home automation</h3>
@@ -235,7 +235,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="img-responsive" src="img/service4.png" alt="">
+								<img class="img-responsive" src="/img/service4.png" alt="">
 							</div>
 						</div>
 						<h3>Jobs</h3>
@@ -262,7 +262,7 @@
 
 				<div class="col-md-3 single-member col-sm-4">
 					<div class="person">
-						<img class="img-responsive" src="img/item1.jpg" alt="member-1">
+						<img class="img-responsive" src="/img/item1.jpg" alt="member-1">
 					</div>
 
 					<div class="person-detail">
@@ -276,7 +276,7 @@
 				<div class="col-md-3 single-member col-sm-4">
 
 					<div class="person">
-						<img class="img-responsive" src="img/item2.jpg" alt="member-2">
+						<img class="img-responsive" src="/img/item2.jpg" alt="member-2">
 					</div>
 					<div class="person-detail">
 						<div class="arrow-bottom"></div>
@@ -287,7 +287,7 @@
 				</div>
 				<div class="col-md-3 single-member col-sm-4">
 					<div class="person">
-						<img class="img-responsive" src="img/item3.jpg" alt="member-3">
+						<img class="img-responsive" src="/img/item3.jpg" alt="member-3">
 					</div>
 					<div class="person-detail">
 						<div class="arrow-bottom"></div>
@@ -299,7 +299,7 @@
 
 				<div class="col-md-3 single-member col-sm-4">
 					<div class="person">
-						<img class="img-responsive" src="img/item4.jpg" alt="member-4">
+						<img class="img-responsive" src="/img/item4.jpg" alt="member-4">
 					</div>
 					<div class="person-detail">
 						<div class="arrow-bottom"></div>
@@ -324,17 +324,18 @@
 				<div class="contact-caption clearfix">
 					<div id="contact-msg" class="contact-heading text-center">
 						<h2>contact us</h2>
+					
 						<?php
-						
-					if($_GET['success'] == 1) {
-						echo " <p class=\"alert alert-success\">Thank you! your message has been send.</p>";
+					
+					if(isset($_GET['success']) && $_GET['success'] == 1) {
+						echo " <p class=\"alert alert-success large-f\">Thank you! your message has been send.</p>";
 					}
 						
-					 if($_GET['success'] == -1) {
-						echo " <p class=\"alert alert-danger\">Oops! Somthing went wrong Please try again!</p>";
+					 if(isset($_GET['success']) && $_GET['success'] == -1) {
+						echo " <p class=\"alert alert-danger large-f\">Oops! Somthing went wrong Please try again!</p>";
 					 }
-					
-					?>
+					 ?>
+				
 					</div>
 					<div class="col-md-6">
 						<div class="row">
@@ -360,10 +361,10 @@
 							<div class="col-md-12 contact-form">
 								<h3>leave us a message</h3>
 
-								<form class="form">
-									<input class="name" type="text" placeholder="Name">
-									<input class="email" type="email" placeholder="Email">
-									<input class="phone" type="text" placeholder="Phone No:">
+								<form class="form" action="/mailer.php" method="POST">
+									<input class="name" name="name" type="text" placeholder="Name">
+									<input class="email" name="email" type="email" placeholder="Email">
+									<input class="phone" name="phone" type="text" placeholder="Phone No:">
 									<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
 									<input class="submit-btn" type="submit" value="SUBMIT">
 								</form>
@@ -416,12 +417,12 @@
 
 	<!-- script tags
 	============================================================= -->
-	<script src="js/jquery-2.1.1.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="js/gmaps.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="/js/jquery-2.1.1.js"></script>
+	<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="/js/gmaps.js"></script>
+	<script src="/js/smoothscroll.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/custom.js"></script>
 
 </body>
 

@@ -3,6 +3,7 @@
 
    // Get the form field , remove html tags whitespace 
     $name = strip_tags(trim($_POST["name"]));
+    $phone = trim($_POST["phone"]);
     $name = str_replace(array("\r","\n"),array(" "," "),$name);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $message = trim($_POST["message"]);
@@ -26,7 +27,9 @@ if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL
     
     $email_content = "Name: $name\n";
     $email_content .= "Email: $email\n\n";
+    $email_content .= "phone: \n$phone\n";
     $email_content .= "Message: \n$message\n";
+    $email_content .= "phone: \n$phone\n";
     
 // Build the email Header
     
