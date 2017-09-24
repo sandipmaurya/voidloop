@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Void Loop RoboTech &amp; Automation</title>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -21,7 +21,7 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="index.html"><img src="img/logo.png" alt="" class="img-responsive logo"></a>
+					<a href="/"><img src="img/logo.png" alt="" class="img-responsive logo"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -324,7 +324,7 @@
 				<div class="contact-caption clearfix">
 					<div id="contact-msg" class="contact-heading text-center">
 						<h2>contact us</h2>
-						<!-- <?php
+						<?php
 						
 					if($_GET['success'] == 1) {
 						echo " <p class=\"alert alert-success\">Thank you! your message has been send.</p>";
@@ -334,7 +334,7 @@
 						echo " <p class=\"alert alert-danger\">Oops! Somthing went wrong Please try again!</p>";
 					 }
 					
-					?> -->
+					?>
 					</div>
 					<div class="col-md-6">
 						<div class="row">

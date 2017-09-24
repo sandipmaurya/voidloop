@@ -10,7 +10,7 @@
 //check the data
     
 if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    header("Location: http://www.tripurari.in/index.php?success=-1#contact-msg");
+    header("Location: https://voidlooprobo.000webhostapp.com/index.php?success=-1#contact-msg");
     exit;
 }
     
@@ -38,7 +38,7 @@ if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL
   
 //redirect to main 
         
-header("Location: http://www.tripurari.in/index.php?success=1#contact-msg");
+header("Location: https://voidlooprobo.000webhostapp.com/index.php?success=1#contact-msg");
         
 
 ?>
