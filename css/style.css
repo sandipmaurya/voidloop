@@ -323,10 +323,10 @@ li a.active{
 	margin-top: 0;
 	margin-bottom: 45px;
 }
-.single-member{
+/* .single-member{
 	margin: 0;
 	padding: 0;
-}
+} */
 .person img{
 	width: 100%;
 }
@@ -417,6 +417,9 @@ li a.active{
 	padding-bottom: 12px;
 	margin-bottom: 0;
 }
+.contact-form {
+	margin-bottom: 50px;	
+}
 .contact-form h3{
 	padding-left: 0;
 	font-size: 30px;
@@ -494,6 +497,7 @@ li a.active{
 #map{
 	height: 500px;
 	margin-bottom: 70px;
+	margin-top: 70px;
 }
 .map{
 	position: relative;
